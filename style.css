@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-sem-emenda-do-vetor-educacional-da-matem%C3%A1tica-com-f%C3%B3rmulas-escritas-%C3%A0-m%C3%A3o-figuras-c%C3%A1lculos-cient-fico-153489102.jpg);
+}
+
+h1{
+    font-family: tahoma,sans-serif;
+    border-radius: 10px;
+    width: 35%;
+    border-style: groove;
+    background-color: rgb(0, 44, 139);
+    color: whitesmoke;
+}
+
+#calculator {
+    max-width: 360px;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 13px;
+    padding: 20px;
+    box-shadow: 0 10px 20px black;
+}
+
+#display {
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 25px;
+    border-radius: 3px;
+    color: rgb(0, 44, 139);
+    background-color: rgb(136, 135, 135);
+    border: none;
+    box-sizing: border-box;
+}
+
+.equal{
+    width: calc(50% - 10px);
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none ;
+    float: left ;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    box-shadow: -1px 1px 10px black;
+}
+
+#ac {
+    background: rgb(34, 15, 206);
+    color: rgb(251, 249, 249);
+}
+#BKSP {
+    background:  rgb(34, 15, 206);
+    color: white;
+}
+.operator {
+    color: rgb(230, 9, 9);
+  
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+    box-shadow: none;
+}
+
+footer{
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 35%;
+    border-radius: 10px;
+    border-style: groove;
+    background-color: rgb(0, 44, 139);
+    color: whitesmoke;
+}
